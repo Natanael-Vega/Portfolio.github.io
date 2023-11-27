@@ -820,6 +820,10 @@ footer .arriba{
 	transform: translateY( -10px );
 }
 
+/* SECCION footer */
+.footer .contenido-banner .redes a:hover{
+    background-color: #049fd9;
+}
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{

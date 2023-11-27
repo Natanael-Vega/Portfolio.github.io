@@ -21,10 +21,11 @@ html{
 .contenedor-header header{
     max-width: 1100px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
     align-items: center;
     padding: 15px 20px;
+    text-align: center;
 }
 .contenedor-header header .logo a{
     text-decoration: none;
@@ -65,6 +66,10 @@ html{
     cursor: pointer;
     display: none;
 }
+
+.navigation a {
+    float: left;
+    }
 /* SECCION I N I C I O */
 .inicio{
     background: url(img/background.jpg);
@@ -762,6 +767,17 @@ footer .arriba{
 
 
 /*----------------services------------------*/
+.tecnologías{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.tecnologías h2 {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
 #services{
 	padding: 50px 0;
 }
@@ -772,7 +788,7 @@ footer .arriba{
 	margin-top: 50px;
 }
 .services-list div{
-	background: #262626;
+	background: #252A2E;
 	padding: 40px;
 	font-size: 13px;
 	font-weight: 300;

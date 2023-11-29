@@ -692,6 +692,12 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+.contacto h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
 /* SECCION MY TRABAJO */
 #portfolio{
 	padding: 50px 0;

@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <!-- MENU ENCABEZADO -->
+
+<!--------------------------------------    SECCION HEADER ---------------------------------------------->
     <div class="contenedor-header">
         <header>
             <!--<div class="logo">
@@ -21,9 +22,9 @@
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#experience" onclick="seleccionar()">EXPERIENCE</a></li>
-                    <li><a href="#tecnologías" onclick="seleccionar()">TECNOLOGIES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EDUCACION</a></li>
+                    <li><a href="#experience" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#tecnologías" onclick="seleccionar()">TECNOLOGIAS</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -32,11 +33,12 @@
         </header>
     </div>
 
-    <!-- SECCION INICIO -->
+<!--------------------------------------    SECCION INICIO ---------------------------------------------->
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/YO.jpg" alt="">
+                <!--<img src="img/YO.jpg" alt="">-->
+                <img  onmouseout="this.src='img/YO.jpg';" onmouseover="this.src='img/network.gif';" src="img/YO.jpg" />
             </div>
             <div class="header-text">
 				<h1>Hola, soy <span>Natanael</span> <br> Vazquez</h1>
@@ -44,22 +46,24 @@
 			</div>
             <div class="redes">
                 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.skype.com/es/"><i class="fa-brands fa-skype"></i></a>
-                <a href="https://mx.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/LuisVazquezV"><i class="fa-brands fa-github"></i></a>
+                <!--<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>-->
+                <a href="https://join.skype.com/invite/ordrxhMbYB4J"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/in/natanael-vazquez-vega/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Natanael-Vega"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- SECCION SOBRE MI -->
+<!--------------------------------------    SECCION ABOUT ME ---------------------------------------------->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p>Hola, soy <span>Natanael Vazquez</span>. Egresado de ingeniería con grandes capacidades que me permiten el uso adecuado de las tecnologías, tanto en el área
-                de electrónica como en el de comunicaciones. Soy una persona dedicada que siempre logra cumplir con los objetivos en
-                tiempo acordado, manteniendo una actitud de compromiso y respeto, que busca la oportunidad de desarrollar sus
-                competencias.</p>
+            <p>Hola, soy <span>Natanael Vazquez</span>. Egresado con honores de la carrera en ingeniería en electrónica y comunicaciones por parte de la Facultad de Ingeniería Mecánica y 
+                Eléctrica, con grandes capacidades que me permiten el uso adecuado de las tecnologías, tanto en el área de electrónica como en el de comunicaciones. Soy una persona 
+                dedicada, responsable y apasionada que siempre logra cumplir con los objetivos en tiempo acordado, manteniendo una actitud de compromiso y respeto, que busca la oportunidad 
+                de desarrollar sus competencias. Amante de la música, gusto por los deportes extremos y viajes, asi como apasionado por la tecnología adquiriendo certificaicoes en CISCO,
+                Fortinet, Azure y realizando cursos el area de IoT y AWS. Me considero una persona autodidacta, siembre buscando actualizarme y aprender de esta hermosa carrera que no tiene 
+                fin y he logrado con esto juntar mi pasión con mi profesión. </p>
 
             <div class="fila">
                 <!-- datos personales -->
@@ -137,14 +141,18 @@
         </div>
     </section>
 
-    <!-- SECCION SKILLS -->
+<!--------------------------------------    SECCION SKILLS ---------------------------------------------->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
             <h2>Skills</h2>
             <div class="fila">
                 <!-- Technical Skill -->
                 <div class="col">
+<<<<<<< HEAD
                     <h3>Technical</h3>
+=======
+                    <h3>Técnicas</h3>
+>>>>>>> 82279fafdf047d2b7d275382b7bd1940d701472d
                     <div class="skill">
                         <span>Routing</span>
                         <div class="barra-skill">
@@ -188,8 +196,12 @@
                 </div>
                 <!-- Professional Skills -->
                 <div class="col">
+<<<<<<< HEAD
                     
                     <h3>Professional</h3>
+=======
+                    <h3>Profesionales</h3>
+>>>>>>> 82279fafdf047d2b7d275382b7bd1940d701472d
                     <div class="skill">
                         <span>Comunicación</span>
                         <div class="barra-skill">
@@ -235,28 +247,15 @@
         </div>
     </section>
 
-    <!-- SECCION CURRICULUM -->
+<!--------------------------------------    SECCION EDUCACIÓN   ---------------------------------------------->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2>Curriculum</h2>
+            <h2>Educación</h2>
             <div class="fila">
                 <div class="col izquierda">
-                    <h3>Educación</h3>
+                
                     <div class="item izq">
-                        
-                        <h4><iconify-icon icon="carbon:education" style="color: white; font-size: 50px;"></iconify-icon>  B.T. BIL. Prog. Mtto. Aeronautico</h4>
-                        <span class="casa">UANL - EIAO MTY 1</span>
-                        <span class="fecha">2013 - 2016</span>
-                        <p>Estudie la carrera técnica en mantenimiento aernáutico en la preparatoria Alvaro Obregon durante 3 años. Una carrera técnica demandante con una gran carga academica asi como disciplinaria, con un requerimiento de
-                            promedio alto para continuar. Me destaque entre los mejores de mi clase obteniendo un promedio final de 98. Adquirí grandes conocimientos técnicos asi como disciplina y 
-                            sentido de responsabilidad.  
-                        </p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4><iconify-icon icon="carbon:education" style="color: white; font-size: 50px;"></iconify-icon>Ingeniería en Electronica y Comunicaciones</h4>
+                        <h4><iconify-icon icon="carbon:education" style="color: white; font-size: 30px;"></iconify-icon>Ingeniería en Electronica y Comunicaciones</h4>
                         <span class="casa">Facultad de ingeniería Mecánica y Eléctrica</span>
                         <span class="fecha">2016 - 2021</span>
                         <p>Estudie la carrera de ingeniería en electrónica y cominicaciones en la FIME durante 5 años en la cual me gradue como primero de mi generación obteniendo el reconocimiento de Mérito Académico. Obtuve grandes 
@@ -267,20 +266,41 @@
                             <div class="circuloi"></div>
                         </div>
                     </div>
+
                     <div class="item izq">
-                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 50px;margin-right: 10px;"></iconify-icon>CCNA Routing & Switching</h4>
-                        <span class="casa">Formación IP</span>
-                        <span class="fecha">AGO 2019 - SEP 2019</span>
-                        <p>El curso tuvo dos objetivos principales, el primero fue obtener los conocimientos suficientes y la seguridad de implementar y administrar las soluciones de Cisco a un nivel asociado para poder enfrentarse a una red en producción. El otro objetivo fue tener las herramientas suficientes para aprobar el examen y obtener la certificación CCNA Routing and Switching.</p>
+                        <h4><iconify-icon icon="tdesign:course" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>Introducción a la Seguridad Cibernética</h4>
+                        <span class="casa">NetAcademy Cisco</span>
+                        <span class="fecha">JUN 2020 - JUL 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item izq">
+                        <h4><iconify-icon icon="tdesign:course" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>LABVIEW CORE 1</h4>
+                        <span class="casa">FIME - UANL</span>
+                        <span class="fecha">AGO 2020 - NOV 2020</span>
+                        <p>Capacitación en el lenguaje de programación NI LabVIEW, una plataforma y entorno de desarrollo para diseñar sistemas con un lenguaje de programación gráfico. Este lenguaje permite el diseño de sistemas usado por ingenieros y científicos para desarrollar, generar prototipos y desplegar aplicaciones embebidas de control y monitoreo de manera eficiente.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item izq">
+                        <h4><iconify-icon icon="tdesign:course" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>AWS Academy Cloud Fundations</h4>
+                        <span class="casa">Amazon</span>
+                        <span class="fecha">MAY 2021 - JUN 2021</span>
+                        <p>Este curso introductorio está destinado a estudiantes que deseen comprender de manera general los conceptos de computación en la nube, independientemente de roles técnicos específicos. Ofrece información general detallada de los conceptos de la nube, los servicios principales, la seguridad, la arquitectura, los precios y la asistencia de AWS.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 50px;margin-right: 10px;"></iconify-icon>CCNP Encore</h4>
+                        <h4><iconify-icon icon="tdesign:course" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>CCNP Encore</h4>
                         <span class="casa">Formación IP</span>
                         <span class="fecha">NOV 2021 - FEB 2022</span>
-                        <p>El curso tuvo dos objetivos principales, el primero fue obtener los conocimientos suficientes y la seguridad de implementar y administrar las soluciones de Cisco a un nivel profesional para poder enfrentarse a una red en producción. El otro objetivo fue tener las herramientas suficientes para aprobar el examen y obtener la certificación CCNP ENCORE.</p>
+                        <p>Este curso tiene como objetivo principale obtener los conocimientos suficientes para implementar y administrar las soluciones de Cisco a un nivel profesional para poder enfrentarse a una red en producción, así como obtener las herramientas suficientes para aprobar el examen y obtener la certificación en Cisco Certified Network Professional - ENCORE.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -288,66 +308,61 @@
                 </div>
 
                 <div class="col derecha">
-                    <h3>Experiencia de trabajo</h3>
-                    <!--<div class="item der">
-                        <h4>LABVIEW CORE 1</h4>
-                        <span class="casa">FIME - UANL</span>
-                        <span class="fecha">AGO 2020 - NOV 2020</span>
-                        <p>Capacitación en el lenguaje de programación NI LabVIEW, una plataforma y entorno de desarrollo para diseñar sistemas con un lenguaje de programación gráfico. Este lenguaje permite el diseño de sistemas usado por ingenieros y científicos para desarrollar, generar prototipos y desplegar aplicaciones embebidas de control y monitoreo de manera eficiente.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>-->
+                    <!--<h3>Experiencia de trabajo</h3>
+                    -->
                     <div class="item der">
-                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 50px;margin-right: 10px;"></iconify-icon>Introducción a la Seguridad Cibernética</h4>
-                        <span class="casa">NetAcademy Cisco</span>
-                        <span class="fecha">JUN 2020 - JUL 2020</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4><iconify-icon icon="carbon:education" style="color: white; font-size: 30px;"></iconify-icon>  B.T. BIL. Prog. Mtto. Aeronautico</h4>
+                        <span class="casa">UANL - EIAO MTY 1</span>
+                        <span class="fecha">2013 - 2016</span>
+                        <p>Estudie la carrera técnica en mantenimiento aernáutico en la preparatoria Alvaro Obregon durante 3 años. Una carrera técnica demandante con una gran carga academica asi como disciplinaria, con un requerimiento de
+                            promedio alto para continuar. Me destaque entre los mejores de mi clase obteniendo un promedio final de 98. Adquirí grandes conocimientos técnicos asi como disciplina y 
+                            sentido de responsabilidad.  
+                        </p>
+                        <div class="conectord">
+                        <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>CCNA Routing & Switching</h4>
+                        <span class="casa">Formación IP</span>
+                        <span class="fecha">AGO 2019 - SEP 2019</span>
+                        <p>El curso tiene como objetivo principal el obtener los conocimientos suficientes para diseñar y administrar soluciones de red a nivel asociado, así como desarrollar un pensamiento crítico y habilidades para la configuración de equipos de red. También tuvo como fín obtener la certificación Cisco Certified Networking Associate - Routing and Switching.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
-                     <!--<div class="item der">
-                        <h4>INTRODUCCIÓN A IOT</h4>
+                    <div class="item der">
+                        <h4><iconify-icon icon="tdesign:course" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>INTRODUCCIÓN A IOT</h4>
                         <span class="casa">NetAcademy Cisco</span>
                         <span class="fecha">JUN 2020 - JUL 2020</span>
-                        <p>Este curso, Introducción a Internet de las cosas 2.0, está diseñado para personas que deseen explorar Internet de las cosas y el efecto que tiene en nuestras vidas cotidianas. No es el objetivo de este curso enseñar acerca de IoT en profundidad, sino proporcionar una idea general de IoT y la forma en que permite la digitalización de las tareas cotidianas.</p>
+                        <p>Este curso tiene como objetivo obtener los conocimientos sobre la ciberseguridad y qué impacto puede tener así también, conocer las amenazas, los ataques y las vulnerabilidades más comunes. También, obtener la información sobre cómo las empresas protegen sus operaciones de los ataques y finalmente conocer las últimas tendencias laborales y por qué sigue creciendo el campo de la ciberseguridad.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="item der">
-                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 50px;margin-right: 10px;"></iconify-icon>Azure Fundamentals</h4>
+                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>Azure Fundamentals</h4>
                         <span class="casa">Microsoft</span>
                         <span class="fecha">FEB 2021 - MAR 2021</span>
-                        <p>Este curso está diseñado para personas que quieren aprender sobre la computación en la nube y el efecto que tiene en nuestras vidas cotidianas. No es el objetivo de este curso enseñar acerca de IoT en profundidad, sino proporcionar una idea general de IoT y la forma en que permite la digitalización de las tareas cotidianas.</p>
+                        <p>Esta certificación valida el conocimiento fundamental de los conceptos de la nube en general y de Azure en particular. Como candidato para esta certificación, puede describir los componentes arquitectónicos de Azure y los servicios de Azure, como computación, redes y almacenamiento, así como características y herramientas para proteger, gobernar y administrar Azure.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 50px;margin-right: 10px;"></iconify-icon>AWS Academy Cloud Fundations</h4>
-                        <span class="casa">Amazon</span>
-                        <span class="fecha">MAY 2021 - JUN 2021</span>
-                        <p>Este curso está diseñado para personas que quieren aprender sobre la computación en la nube y el efecto que tiene en nuestras vidas cotidianas. No es el objetivo de este curso enseñar acerca de IoT en profundidad, sino proporcionar una idea general de IoT y la forma en que permite la digitalización de las tareas cotidianas.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 50px;margin-right: 10px;"></iconify-icon>Meraki Guru</h4>
+                        <h4><iconify-icon icon="tdesign:course" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>Meraki Guru</h4>
                         <span class="casa">Cisco Meraki</span>
                         <span class="fecha">JUL 2021</span>
-                        <p>Este curso está diseñado para personas que quieren aprender sobre la computación en la nube y el efecto que tiene en nuestras vidas cotidianas. No es el objetivo de este curso enseñar acerca de IoT en profundidad, sino proporcionar una idea general de IoT y la forma en que permite la digitalización de las tareas cotidianas.</p>
+                        <p>La capacitación Cisco Meraki Guru lo ayuda a prepararse para roles enfocados en implementar, proteger y administrar redes basadas en Cisco Meraki desde un panel centralizado. Los temas cubiertos incluyen las soluciones basadas en la nube de Cisco Meraki, la comprensión de los protocolos de seguridad de la red, el diseño de arquitecturas escalables y la aplicación de estrategias de resolución de problemas. </p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 50px;margin-right: 10px;"></iconify-icon>Fortinet NSE2</h4>
+                        <h4><iconify-icon icon="icon-park-outline:certificate" style="color: white;font-size: 30px;margin-right: 10px;"></iconify-icon>Fortinet Certified Associate Cybersecurity</h4>
                         <span class="casa">Fortinet</span>
                         <span class="fecha">AGS 2023</span>
-                        <p>Este curso está diseñado para personas que quieren aprender sobre la computación en la nube y el efecto que tiene en nuestras vidas cotidianas. No es el objetivo de este curso enseñar acerca de IoT en profundidad, sino proporcionar una idea general de IoT y la forma en que permite la digitalización de las tareas cotidianas.</p>
+                        <p>El objetivo de este curso es aprender cómo reforzar la seguridad de su red utilizando las funciones más comunes de FortiGate. A través de demostraciones y simulaciones interactivas, se aprendió cómo realizar tareas operativas básicas en FortiGate. También se obtuvo la certificación FCA validando mi capacidad para ejecutar operaciones de alto nivel de dispositivos FortiGate. Este plan de estudios cubre los procedimientos operativos fundamentales para las características más comunes de FortiGate.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -357,39 +372,10 @@
         </div>
     </section>
 
-    <!-- SECCION PORTFOLIO 
-    <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>Mi trabajo</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="img/p1.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <section id="experience" class="portfolio">
+<!--------------------------------------    SECCION EXPERIENCIA ---------------------------------------------->
+    <!--<section id="experience" class="portfolio">
 		<div class="contenido-seccion">
-            <h2>Experience</h2>
+            <h2>Experiencia</h2>
 			<h1 class="sub-title">PlanNet Service SA de SV</h1>
 			<div class="work-list">
 				<div class="work">
@@ -444,50 +430,10 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 
-    <!-- SECCION CONTACTO 
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <!-- Mapa 
-                <div class="col">
-                    <img src="img/ubicacion.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Nicaragua 159, San Rafael Mza
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: 2384 - 4343443 
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: cw@example.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
+<!--------------------------------------    SECCION SERVICIOS   ---------------------------------------------->
 
-    <!-----------------------------services--------------------------------------------->
     <section id="tecnologías" class="tecnologías">
         <div class="contenido-seccion">
             <h2>Tecnologías</h2>
@@ -497,26 +443,20 @@
                         <div>
                             
                             <h2>Security</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt placeat inventore. Quas
-                                quasi quo porro soluta dolore, accusantium debitis tempore quibusdam exercitationem assumenda
-                                labore modi illum, hic, eum unde.</p>
+                            <p>Experiencia básica en el area de seguridad informática, administrando y configurando equipos de la marca Fortinet y Cisco Meraki appliance.Conocimiento en el manejo de tecnologías, procesos y prácticas diseñadas para la protección de redes, dispositivos, programas y datos.</p>
                                 <p style="margin-top: 30px;"><iconify-icon icon="simple-icons:fortinet"></iconify-icon></p>
                         </div>
                         <div>
                             
                             <h2>Network</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt placeat inventore. Quas
-                                quasi quo porro soluta dolore, accusantium debitis tempore quibusdam exercitationem assumenda
-                                labore modi illum, hic, eum unde.</p>
+                            <p>Experiencia en el área de redes, implementando y administrando equipos CISCO/Meraki en ambientes WAN, LAN y WLAN, siempre aplicando las mejores prácticas de diseño e implementación con el fin de obtener los mejores resultados.<p>
                                 <p style="margin-top: 10px;"><img src="img/Cisco-Meraki.png" width="100px" height="100px">
                                     <iconify-icon icon="simple-icons:cisco"></iconify-icon></p>
                         </div>
                         <div>
                             
                             <h2>Web Service</h2>
-                            <p class="Servicios">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt placeat inventore. Quas
-                                quasi quo porro soluta dolore, accusantium debitis tempore quibusdam exercitationem assumenda
-                                labore modi illum, hic, eum unde.</p>
+                            <p class="Servicios">Conocimientos básicos en el manejo de cloud services con plataformas Azure y Amazon Web Service, aplicando herramientas IaaS, SaaS y PaaS para obtener las mejores soluciones que se adapten a las necesidades de hoy en día.</p>
                             <p style="margin-top: 30px;"><iconify-icon icon="mdi:microsoft-azure"></iconify-icon>
                                 <iconify-icon icon="mdi:aws" ></iconify-icon></p>
                         </div>
@@ -526,13 +466,13 @@
         </div>
     </section>
 
-    <!-- footer -->
+<!--------------------------------------    SECCION FOOTER  ---------------------------------------------->
     <footer>
         <section id="footer" class="footer">
             <div class="contenido-banner">
         <!--Crear una seccion de contacto-->
         <div class="contacto">
-            <h3>Contacto</h3>
+            <h2>Contacto</h2>
             <p>Si estas interesado en mi trabajo, puedes contactarme por cualquiera de mis redes sociales.</p>
             <a href="mailto:natanael.vega@hotmail.com">
 
@@ -541,13 +481,12 @@
         </a>
         <div class="redes">
             <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.skype.com/es/"><i class="fa-brands fa-skype"></i></a>
-            <a href="https://mx.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://github.com/LuisVazquezV"><i class="fa-brands fa-github"></i></a>
+            <!--<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>-->
+            <a href="https://join.skype.com/invite/ordrxhMbYB4J"><i class="fa-brands fa-skype"></i></a>
+            <a href="https://www.linkedin.com/in/natanael-vazquez-vega/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Natanael-Vega"><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

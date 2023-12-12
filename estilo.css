@@ -24,7 +24,7 @@ html{
     /*display: flex;*/
     /*justify-content: space-between;*/
     align-items: center;
-    padding: 15px 20px;
+    padding: 1px 1px;
     text-align: center;
 }
 .contenedor-header header .logo a{
@@ -692,6 +692,12 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+.contacto h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
 /* SECCION MY TRABAJO */
 #portfolio{
 	padding: 50px 0;
@@ -779,7 +785,7 @@ footer .arriba{
     padding: 20px 0;
 }
 #services{
-	padding: 50px 0;
+	padding: 5px 0;
 }
 .services-list{
 	display: grid;

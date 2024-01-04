@@ -214,7 +214,7 @@ p.cisco{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+/*.sobremi button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -253,7 +253,39 @@ p.cisco{
 	border-radius: 10px;
 	text-decoration: none;
 	color: #fff;
+}*/
+
+/*BOTTON */
+button {
+    all: unset;
+  }
+  
+  .btn {
+    font-family: sans-serif;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    /*text-transform: uppercase;/*/
+    background-color:#252A2E;
+    color: rgb(234, 234, 234);
+    font-weight: 600;
+    transition: 0.6s;
+    /*box-shadow: 0px 0px 10px hsl(232 85% 69% / 0.6);/*/
+    box-shadow: 0px 0px 10px hsla(201, 85%, 69%, 0.266);
+    -webkit-box-reflect: below 8px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
 }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    color: rgb(4, 4, 38);
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+  }
+
 
 /*SECCION REDES MEJORADA*/
 .wrapper {

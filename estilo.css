@@ -207,9 +207,42 @@ p.cisco{
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
+}
+
+/* CAMBIO DE COLOR HOVER*/
+.sobremi .fila .col .contenedor-intereses .interes:hover{
     background-color: #049fd9;
 }
+.sobremi .fila .col .contenedor-intereses .gamepad:hover{
+    background-color: #d36b6b;
+}
+.sobremi .fila .col .contenedor-intereses .headphones:hover{
+    background-color: #bf8901;
+}
+.sobremi .fila .col .contenedor-intereses .plane:hover{
+    background-color: #c468b6;
+}
+.sobremi .fila .col .contenedor-intereses .microship:hover{
+    background-color: #048bbc;
+}
+.sobremi .fila .col .contenedor-intereses .hiking:hover{
+    background-color: #2E8B57;
+}
+.sobremi .fila .col .contenedor-intereses .book:hover{
+    background-color: #008B8B;
+}
+.sobremi .fila .col .contenedor-intereses .car:hover{
+    background-color: #483D8B;
+}
+.sobremi .fila .col .contenedor-intereses .camera:hover{
+    background-color: #8e934a;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;

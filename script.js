@@ -126,3 +126,28 @@ function getPath(update, smoothing, pointsNew) {
         d = points.reduce((acc, point, i, a) => i === 0 ? `M ${point[0]},${point[1]}` : `${acc} ${getPoint(point, i, a, smoothing)}`, '');
     return `<path d="${d}" />`;
 }
+
+const downloadBtn = document.querySelector(".button.dark");
+const fileLink = "https://drive.google.com/uc?id=1N_fg8hK9LlDJSoXH51_huwicOxfSNmae&export=download";
+
+const initTimer = () => {
+    if(downloadBtn.classList.contains("disable-timer")) {
+        return location.href = fileLink;
+    }
+    let timer = downloadBtn.dataset.timer;
+    downloadBtn.classList.add("timer");
+    
+    const initCounter = setInterval(() => {
+        if(timer > 0) {
+            timer--;
+        }
+        clearInterval(initCounter);
+        location.href = fileLink;
+        setTimeout(() => {
+            downloadBtn.classList.replace("timer", "disable-timer");
+            
+        }, 3000);
+    }, 1000);
+}
+
+downloadBtn.addEventListener("click", initTimer);

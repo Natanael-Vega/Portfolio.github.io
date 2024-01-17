@@ -1523,5 +1523,6 @@ transform: rotateY(360deg);
     backdrop-filter: blur(.6rem);
     text-align: center;
     border-radius: 5px;
-    max-width: 1100px;
+    max-width:fit-content;
+    margin: 10PX 50PX 10PX 50PX;
 }

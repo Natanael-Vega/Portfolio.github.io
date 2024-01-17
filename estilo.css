@@ -1506,3 +1506,21 @@ transform: rotateY(360deg);
     color:gray;
 }
 
+/*TERMINOS Y CONDICIONES*/
+.inicio-privacy{
+    background: #1e2326cf;
+    background-size: cover;
+	background-position: center;
+    height: 30vh;
+    color: #fff;
+    display: flex;
+}
+.inicio-privacy .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326cf;
+    backdrop-filter: blur(.6rem);
+    text-align: center;
+    border-radius: 40px;
+    max-width: 1100px;
+    margin: auto;
+}

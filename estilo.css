@@ -1511,16 +1511,17 @@ transform: rotateY(360deg);
     background: #1e2326cf;
     background-size: cover;
 	background-position: center;
-    height: 30vh;
+    height: 40vh;
     color: #fff;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .inicio-privacy .contenido-banner{
     padding: 20px;
     background-color: #1e2326cf;
     backdrop-filter: blur(.6rem);
     text-align: center;
-    border-radius: 40px;
+    border-radius: 5px;
     max-width: 1100px;
-    margin: auto;
 }

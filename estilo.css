@@ -1492,3 +1492,20 @@ transform: rotateY(360deg);
 .item:nth-child(4) {
 --bg-color: #0e76a8;
 }
+
+/*Footer style*/
+#lista1{
+    padding-top: 30px;
+}
+
+#lista1 li{
+    display:inline;
+}
+
+.separador {
+    color:gray;
+}
+
+.Footer-a a{
+    color: white;
+}

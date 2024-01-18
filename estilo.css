@@ -1028,13 +1028,13 @@ main .sobre-nosotros{
 }
 .contenido-textos h3{
     margin-bottom: 5px;
-    color: #000000;
+    color: #303030;
     font-size: 15px;
 }
 
 .contenido-textos h3 span{
     background: #6EBE4A;
-    color: #000000;
+    color: #303030;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -1049,7 +1049,7 @@ main .sobre-nosotros{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
-    color: #000000;
+    color: #303030;
 }
 
 .titulo {

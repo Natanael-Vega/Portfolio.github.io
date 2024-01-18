@@ -72,7 +72,11 @@ html{
     }
 /* SECCION I N I C I O */
 .inicio{
-    background: url(img/background.gif);
+    background-image: linear-gradient(
+    to bottom,
+    #1e23261c,
+    #252a2ead
+  ), url("img/background.gif");
     background-size: cover;
 	background-position: center;
     height: 100vh;

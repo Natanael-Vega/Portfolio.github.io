@@ -72,7 +72,7 @@ html{
     }
 /* SECCION I N I C I O */
 .inicio{
-    background: url(img/ripplenet-section-1.gif);
+    background: url(img/background.gif);
     background-size: cover;
 	background-position: center;
     height: 100vh;

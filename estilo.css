@@ -252,46 +252,6 @@ p.cisco{
     font-size: 30px;
     margin-bottom: 10px;
 }
-/*.sobremi button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.sobremi button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #049fd9;
-    z-index: -1;
-    transition: 1s;
-}
-.sobremi button:hover .overlay{
-    width: 100%;
-}
-.btn.btn2{
-	display: inline-block;
-	background: #049fd9;
-}
-.btn{
-	display: block;
-	margin: 50px auto;
-	width: fit-content;
-	border: 1px solid #049fd9;
-	padding: 14px 50px;
-	border-radius: 10px;
-	text-decoration: none;
-	color: #fff;
-}*/
 
 /*BOTTON */
 
@@ -1082,135 +1042,7 @@ padding: 0;
 z-index: 1;
 }
 
-/* SECCION CONTACTO 
-.contacto{
-    background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 0;
-}
-.contacto .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.contacto h2{
-    font-size: 48px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding: 20px 0;
-}
-.contacto .fila{
-    display: flex;
-}
-.contacto .col{
-    width: 50%;
-    padding: 10px;
-    position: relative;
-}
-.contacto .col input, .contacto .col textarea{
-    display: block;
-    width: 100%;
-    padding: 18px;
-    border: none;
-    margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
-    font-size: 18px;
-}
-.contacto button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.contacto button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #049fd9;
-    z-index: -1;
-    transition: 1s;
-}
-.contacto button:hover .overlay{
-    width: 100%;
-}
-.contacto .col img{
-    width: 100%;
-}
-.contacto .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #252A2E;
-    padding: 20px;
-    max-swidth: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.contacto .col .info ul{
-    list-style: none;
-}
-.contacto .col .info ul li{
-    margin-bottom: 20px;
-}
-.contacto .col .info ul li i{
-    color: #049fd9;
-    display: inline-block;
-    margin-right: 20px;
-}
-*/
-footer{
-    background-color: #252A2E;
-    color: #fff;
-    padding: 50px 0 30px 0;
-    text-align: center;
-    position: relative;
-    width: 100%;
-}
-footer .redes{
-    margin-bottom: 20px;
-}
-footer .redes a{
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-    transition: .3s;
-}
-footer .arriba{
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-color: #049fd9;
-    color: #fff;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -25px;
-    border-radius: 50%;
-    line-height: 50px;
-    font-size: 18px;
-}
-.contacto h2 {
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding: 20px 0;
-}
+
 /* SECCION MY TRABAJO */
 #portfolio{
 	padding: 50px 0;
@@ -1285,7 +1117,7 @@ footer .arriba{
 }
 
 
-/*----------------services------------------*/
+/*----------------SECCION TECNOLOGIAS------------------*/
 .tecnologías{
     background-color: #1e2326;
     color: #fff;
@@ -1340,7 +1172,6 @@ footer .arriba{
 }
 
 .services-list .network:hover{
-	/*background: #049fd9;*/
     background: #005072;
 	transform: translateY( -10px );
 }
@@ -1350,9 +1181,54 @@ footer .arriba{
 	transform: translateY( -10px );
 }
 
-/* SECCION footer */
+/* SECCION FOOTER */
 .footer .contenido-banner .redes a:hover{
     background-color: #049fd9;
+}
+
+footer{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #049fd9;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+.contacto h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px 0;
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
@@ -1423,8 +1299,6 @@ footer .arriba{
         width: 100%;
     }
 }
-
-
 
 /* SECCION redes sociales */
 

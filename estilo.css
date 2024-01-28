@@ -1362,7 +1362,7 @@ transform: rotateY(360deg);
 }
 
 .item:nth-child(2) {
---bg-color: #fbbc05;
+--bg-color: #e9ae00;
 }
 .item:nth-child(3) {
 --bg-color: #00aff0;

@@ -130,7 +130,7 @@ function getPath(update, smoothing, pointsNew) {
 const downloadBtn = document.querySelector(".button.dark");
 
 //const fileLink = "https://drive.google.com/uc?id=1N_fg8hK9LlDJSoXH51_huwicOxfSNmae&export=download";
-const filelink = "https://drive.google.com/uc?id=13LkGILKE-UDtq1uQ53l-A2YIWrKHCmUE&export=download";
+const fileLink = "https://drive.google.com/uc?id=13LkGILKE-UDtq1uQ53l-A2YIWrKHCmUE&export=download";
 
 const initTimer = () => {
     if(downloadBtn.classList.contains("disable-timer")) {
